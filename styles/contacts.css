@@ -1,0 +1,47 @@
+.contacts {
+  margin-top: 186px;
+  margin-bottom: 150px;
+}
+
+.contacts__data {
+  margin-top: 35px;
+  margin-left: -1px;
+  width: 1400px;
+}
+
+.contacts__title {
+  position: relative;
+  font-size: 18px;
+  line-height: 24.59px;
+}
+
+.contacts__title::before {
+  position: absolute;
+  left: -5px;
+  top: -35px;
+  content: "";
+  width: 25px;
+  height: 26px;
+  background-image: url(../resources/iphone.png);
+  background-size: contain;
+}
+
+.telephone {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  width: 480px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.mail {
+  font-size: 58px;
+  line-height: 60px;
+}
+
+.telephone:hover,
+.mail:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}

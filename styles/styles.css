@@ -1,0 +1,46 @@
+@import "./aboutus.css";
+@import "./contacts.css";
+@import "./footer.css";
+@import "./gallery.css";
+@import "./heder.css";
+@import "./metric.css";
+@import "./projects.css";
+@import "./services.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  background: #ffffff;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 15px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+}

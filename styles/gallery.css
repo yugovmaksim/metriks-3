@@ -1,0 +1,20 @@
+.gallery__imeg {
+  position: relative;
+  width: 100%;
+  height: 717px;
+  background-image: url(../resources/Rectangle_13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.gallery__text {
+  position: absolute;
+  top: 575px;
+  left: 125px;
+  bottom: 60px;
+  width: 443px;
+  font-size: 30px;
+  line-height: 40.98px;
+  color: rgba(255, 255, 255, 1);
+}

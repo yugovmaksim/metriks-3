@@ -1,0 +1,33 @@
+.footer {
+  background-color: black;
+}
+
+.footer-nav {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 87px;
+  padding-top: 61px;
+  width: 461px;
+}
+
+.footer-nav__link {
+  margin-right: 57px;
+  height: 25px;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: white;
+}
+
+.footer-nav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-nav__text {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 20.4px;
+  line-height: 27.32px;
+  color: gray;
+}

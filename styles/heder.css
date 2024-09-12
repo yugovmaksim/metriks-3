@@ -1,0 +1,23 @@
+.header {
+  margin-top: 33px;
+  margin-bottom: 70px;
+}
+
+.header-nav {
+  float: right;
+}
+
+.nav__link {
+  margin-right: 60px;
+  line-height: 28px;
+  font-size: 18px;
+  text-align: center;
+}
+.nav__link:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+.nav__link:nth-last-child(1) {
+  margin-right: 0;
+}
